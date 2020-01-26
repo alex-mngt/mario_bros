@@ -260,8 +260,12 @@ body {
     transition: opacity .3s ease-out;
 }
 
-svg .play {
+.splash-screen .play {
     cursor: pointer;
+}
+
+.splash-screen .play>text {
+    font-family: pixel, sans-serif;
 }
 
 .dead {
